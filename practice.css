@@ -1,7 +1,4 @@
-#ab {
-    
-    position: absolute;
-    width : 200px;
-    height: 200px;
-    background-color: aqua;
+#hide{
+    display: none;
+    color: red;
 }
