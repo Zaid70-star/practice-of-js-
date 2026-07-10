@@ -1,11 +1,2 @@
-let name = document.querySelector("#name");
-let form = document.querySelector("form")
-form.addEventListener("submit" , function(dets){
-  dets.preventDefault();
- if (name.value.length > 2) {
-  document.querySelector("#hide").style.display = "none";  
-  
-} else {
-    document.querySelector("#hide").style.display = "block";
-}
-});
+let h1 = document.querySelector("h1");
+let count = h1
